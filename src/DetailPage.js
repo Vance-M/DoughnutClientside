@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
-import { getDoughnut, getBakers, updateDoughnut, getBakerId} from './api-utils.js';
+import { getDoughnut, getBakers,
+    //  updateDoughnut, getBakerId
+    } from './api-utils.js';
 export default class DetailPage extends Component {
     state = {
         name: '',
